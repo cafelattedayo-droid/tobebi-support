@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>プライバシーポリシー – トゥベビ</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', sans-serif;
+      background: #FAFAF8;
+      color: #2C2420;
+      line-height: 1.8;
+      padding: 0 20px 60px;
+    }
+    header {
+      background: #FEF6E9;
+      border-bottom: 1px solid #FDEBD8;
+      padding: 32px 20px 24px;
+      text-align: center;
+    }
+    header h1 { font-size: 22px; color: #5C3D2E; }
+    header p  { font-size: 13px; color: #B09080; margin-top: 4px; }
+    main { max-width: 680px; margin: 0 auto; padding-top: 36px; }
+    h2 {
+      font-size: 16px;
+      color: #5C3D2E;
+      border-left: 3px solid #E8916A;
+      padding-left: 10px;
+      margin: 36px 0 12px;
+    }
+    p, li { font-size: 14px; color: #3C2C24; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: #E8916A; }
+    .updated {
+      font-size: 12px;
+      color: #B09080;
+      text-align: right;
+      margin-top: 48px;
+    }
+    .intro {
+      background: #FEF6E9;
+      border-radius: 12px;
+      padding: 16px 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>トゥベビ プライバシーポリシー</h1>
+    <p>TobeBi Privacy Policy</p>
+  </header>
+
+  <main>
+    <p class="intro">
+      「トゥベビ」（以下「本アプリ」）をご利用いただきありがとうございます。
+      本ポリシーでは、本アプリが取得する情報およびその利用方法についてご説明します。
+    </p>
+
+    <h2>1. 取得する情報</h2>
+    <p>本アプリは以下の情報を取得・保存します。</p>
+    <ul>
+      <li><strong>写真・画像データ</strong>：カメラで撮影した写真、カメラロールから取り込んだ画像。端末内およびクラウド（Firebase Storage）に保存されます。</li>
+      <li><strong>お子様のプロフィール情報</strong>：お名前・誕生日など、アプリ内で入力した情報。クラウド（Firebase Firestore）に保存されます。</li>
+      <li><strong>家族グループ情報</strong>：家族グループの識別子・メンバー情報。クラウド（Firebase Firestore）に保存されます。</li>
+      <li><strong>アカウント情報</strong>：Apple IDによる認証情報（ユーザー識別子）をFirebase Authenticationで管理します。ユーザーの選択により、メールアドレスまたは匿名化された転送用メールアドレスを取得する場合があります。</li>
+      <li><strong>アプリ設定情報</strong>：コラージュ設定・通知設定などの環境設定。端末内（UserDefaults）に保存されます。</li>
+    </ul>
+
+    <h2>2. 情報の利用目的</h2>
+    <ul>
+      <li>毎日の写真を自動でコラージュ化するサービスの提供</li>
+      <li>家族グループ内での写真・コラージュの共有</li>
+      <li>アプリ機能の改善・不具合の修正</li>
+      <li>コラージュ生成の通知など、ユーザーへのお知らせ</li>
+    </ul>
+
+    <h2>3. 第三者への情報提供</h2>
+    <p>
+      本アプリはユーザーの個人情報を第三者に販売・賃貸・共有しません。
+      ただし、以下のサービスを利用しており、各社のプライバシーポリシーに基づき情報が処理される場合があります。
+    </p>
+    <ul>
+      <li>
+        <strong>Firebase（Google LLC）</strong>：認証（Firebase Authentication）・データベース（Firestore）・ストレージ（Cloud Storage）・プッシュ通知（Firebase Messaging）の提供に使用。本アプリのデータはGoogle LLCが提供するFirebaseを通じて管理されており、日本国外のサーバーに保存される場合があります。Google LLCは適切な安全管理措置を講じています。
+        <a href="https://firebase.google.com/support/privacy" target="_blank">Firebaseプライバシーポリシー</a>
+      </li>
+    </ul>
+
+    <h2>4. データの保管・削除</h2>
+    <ul>
+      <li>写真・コラージュはアカウントに紐づいてクラウドに保存されます。</li>
+      <li>アカウントを削除した場合、クラウド上のデータはすべて速やかに削除されます。アカウントの削除はアプリ内の「設定 &gt; アカウント」から行えます。</li>
+      <li>アプリをアンインストールした場合、端末内のデータは削除されますが、クラウド上のデータは残ります。完全に削除をご希望の場合は、アンインストール前にアプリ内からアカウントを削除してください。</li>
+    </ul>
+
+    <h2>5. お子様の情報について</h2>
+    <p>
+      本アプリは保護者が家族で使用することを前提としています。
+      13歳未満のお子様のアカウント登録は想定していません。
+      お子様の写真はあくまで家族内での利用を目的としており、第三者に公開されることはありません。
+    </p>
+
+    <h2>6. アクセス権限</h2>
+    <p>本アプリは以下の端末機能へのアクセスを求めます。</p>
+    <ul>
+      <li><strong>カメラ</strong>：写真撮影のため</li>
+      <li><strong>フォトライブラリ</strong>：写真の取り込みのため</li>
+      <li><strong>通知</strong>：コラージュ生成の通知のため</li>
+    </ul>
+    <p>各権限はiOSの設定アプリからいつでも変更・取り消しできます。</p>
+
+    <h2>7. セキュリティ</h2>
+    <p>
+      通信はすべてSSL/TLSで暗号化されています。
+      Firebase のセキュリティルールにより、ご自身の家族グループのデータにのみアクセス可能です。
+    </p>
+
+    <h2>8. プライバシーポリシーの変更</h2>
+    <p>
+      本ポリシーは必要に応じて更新することがあります。
+      重要な変更がある場合はアプリ内でお知らせします。
+      最新版は常にこのページでご確認いただけます。
+    </p>
+
+    <h2>9. お問い合わせ</h2>
+    <p>
+      プライバシーに関するご質問・ご要望は以下までご連絡ください。<br />
+      メール：<a href="mailto:todaybabycamera@gmail.com">todaybabycamera@gmail.com</a>
+    </p>
+
+    <p class="updated">最終更新日：2026年6月29日（改訂版）</p>
+  </main>
+</body>
+</html>
